@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "EudoxusSans";
+  src: url("../fonts/EudoxusSans-Regular.ttf");
+  src: url("../fonts/EudoxusSans-Regular.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "EudoxusSans-Bold";
+  src: url("../fonts/EudoxusSans-Bold.ttf");
+  src: url("../fonts/EudoxusSans-Bold.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "EudoxusSans-ExtraBold";
+  src: url("../fonts/EudoxusSans-ExtraBold.ttf");
+  src: url("../fonts/EudoxusSans-ExtraBold.woff") format("woff"),
+}
+
+@font-face {
+  font-family: "EudoxusSans-Light";
+  src: url("../fonts/EudoxusSans-Light.ttf");
+  src: url("../fonts/EudoxusSans-Light.woff") format("woff"),
+}
