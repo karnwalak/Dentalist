@@ -342,9 +342,10 @@ nav {
 }
 
 #pattern-index {
-  position: relative;
-  top: -71px;
-  left: 61px;
+    position: relative;
+    top: -71px;
+    width: 22%;
+    left: 61px;
 }
 
 .eclipse11 {
@@ -355,7 +356,6 @@ nav {
   margin-left: 15px;
   left: 47.4px;
   top: -442.78px;
-  background: #7abadd;
 }
 .eclipse12 {
   position: relative;
@@ -365,7 +365,6 @@ nav {
   margin-left: 15px;
   left: 47.4px;
   top: -427.78px;
-  background: #7abadd;
 }
 .eclipse13 {
   position: relative;
@@ -375,7 +374,6 @@ nav {
   margin-left: 15px;
   left: 47.4px;
   top: -412.78px;
-  background: #7abadd;
 }
 .eclipse14 {
   position: relative;
@@ -385,7 +383,6 @@ nav {
   margin-left: 15px;
   left: 47.4px;
   top: -397.78px;
-  background: #7abadd;
 }
 .eclipse15 {
   position: relative;
@@ -395,7 +392,6 @@ nav {
   margin-left: 15px;
   left: 47.4px;
   top: -382.78px;
-  background: #7abadd;
 }
 .eclipse16 {
   position: relative;
@@ -405,7 +401,6 @@ nav {
   margin-left: 15px;
   left: 47.4px;
   top: -367.78px;
-  background: #7abadd;
 }
 .eclipse17 {
   position: relative;
@@ -415,7 +410,6 @@ nav {
   margin-left: 15px;
   left: 47.4px;
   top: -352.78px;
-  background: #7abadd;
 }
 
 .eclipse18 {
@@ -426,7 +420,6 @@ nav {
   margin-left: 15px;
   left: 47.4px;
   top: -337.78px;
-  background: #7abadd;
 }
 
 #quote-div {
@@ -1651,7 +1644,7 @@ nav {
 
 #map {
   position: relative;
-  width: 100%;
+  width: 102%;
   height: 816px;
   background: #c4c4c4;
   border-radius: 48px;
@@ -1714,7 +1707,7 @@ nav {
   position: relative;
   width: 30%;
   left: 0%;
-  top: 25%;
+  top: 40%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
@@ -1729,7 +1722,7 @@ nav {
   position: relative;
   width: 90%;
   left: 0%;
-  top: 24%;
+  top: 40%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
@@ -1743,7 +1736,7 @@ nav {
   position: relative;
   width: 90%;
   left: 0%;
-  top: 26%;
+  top: 40%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 500;
@@ -2172,95 +2165,14 @@ label {
 }
 
 /* About us css */
-
-.eclipse1 {
+#about-pattern {
   position: relative;
-  left: 116.4px;
-  border-radius: 50%;
-  margin-left: 17px;
-  top: 0px;
-  width: 4px;
-  height: 4px;
-  background: #7abadd;
+  top: 756px;
+  margin-left: 137px;
 }
 
-.eclipse2 {
-  position: relative;
-  left: 116.4px;
-  border-radius: 50%;
-  margin-left: 17px;
-  top: 15px;
-  width: 4px;
-  height: 4px;
+.common-pattern-about {
   background: #7abadd;
-}
-.eclipse3 {
-  position: relative;
-  left: 116.4px;
-  border-radius: 50%;
-  margin-left: 17px;
-  top: 30px;
-  width: 4px;
-  height: 4px;
-  background: #7abadd;
-}
-.eclipse4 {
-  position: relative;
-  left: 116.4px;
-  border-radius: 50%;
-  margin-left: 17px;
-  top: 45px;
-  width: 4px;
-  height: 4px;
-  background: #7abadd;
-}
-.eclipse5 {
-  position: relative;
-  left: 116.4px;
-  border-radius: 50%;
-  margin-left: 17px;
-  top: 60px;
-  width: 4px;
-  height: 4px;
-  background: #7abadd;
-}
-.eclipse6 {
-  position: relative;
-  left: 116.4px;
-  border-radius: 50%;
-  margin-left: 17px;
-  top: 75px;
-  width: 4px;
-  height: 4px;
-
-  background: #7abadd;
-}
-.eclipse7 {
-  position: relative;
-  left: 116.4px;
-  border-radius: 50%;
-  margin-left: 17px;
-  top: 90px;
-  width: 4px;
-  height: 4px;
-  background: #7abadd;
-}
-.eclipse8 {
-  position: relative;
-  left: 116.4px;
-  border-radius: 50%;
-  margin-left: 17px;
-  top: 105px;
-  width: 4px;
-  height: 4px;
-  background: #7abadd;
-}
-
-#pattern-about {
-  position: relative;
-  top: 313px;
-  width: 90%;
-  left: 58px;
 }
 
 #abu-img1 {
@@ -2417,6 +2329,22 @@ label {
 }
 
 #cli-appointment-btn {
+  position: relative;
+  top: 45%;
+  left: 2%;
+  font-size: 14px;
+  height: 60px;
+  width: 225px;
+  border: none;
+  background: #583fbc;
+  border-radius: 16px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#aucli-appointment-btn {
   position: relative;
   top: 21%;
   left: 2%;
@@ -2655,6 +2583,8 @@ iframe {
   color: #181945;
 }
 
+/* Service Page CSS */
+
 #ser-head {
   position: relative;
   left: 21%;
@@ -2687,7 +2617,7 @@ iframe {
   opacity: 0.7;
 }
 
-#appointment-btn-service{
+#appointment-btn-service {
   position: relative;
   top: 40%;
   left: 21.5%;
@@ -2701,4 +2631,921 @@ iframe {
   font-style: normal;
   font-weight: 700;
   color: #ffffff;
+}
+
+#serdot2 {
+  position: relative;
+  width: 17.86px;
+  height: 17.86px;
+  border-radius: 50%;
+  left: 94%;
+  top: 40%;
+  background: #7abadd;
+}
+
+#serdot3 {
+  position: relative;
+  width: 12.78px;
+  height: 12.78px;
+  border-radius: 50%;
+  left: 13%;
+  top: 30%;
+  background: #583fbc;
+}
+#serdot4 {
+  position: relative;
+  width: 17.86px;
+  height: 17.86px;
+  border-radius: 50%;
+  left: 8%;
+  top: 64%;
+  background: #7abadd;
+}
+
+#serrect3 {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  left: 85.5%;
+  top: -41%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10.3772px;
+  transform: rotate(30deg);
+}
+
+#serrect4 {
+  position: relative;
+  width: 72px;
+  height: 72px;
+  left: 11px;
+  top: 12.06px;
+  background: #ffffff;
+  border-radius: 10.3772px;
+}
+
+#sericon4 {
+  position: relative;
+  left: 0.42%;
+  right: 7.05%;
+  top: 17.5%;
+  bottom: 22.35%;
+  background: #ffffff;
+  transform: rotate(4deg);
+  height: 26px;
+  width: 26px;
+}
+
+#sergirl_img {
+  position: relative;
+  width: 70%;
+  height: 101%;
+  left: 4%;
+  z-index: 1;
+  top: 28px;
+  border-radius: 26px;
+}
+
+#serpattern-index {
+  position: relative;
+  top: 194px;
+  left: 0px;
+}
+
+#serimgser41 {
+  position: relative;
+  left: 26.65%;
+  right: 14.65%;
+  top: 27%;
+  bottom: 58.84%;
+}
+
+#serimgser42 {
+  position: relative;
+  left: -22.35%;
+  right: 14.65%;
+  top: 38%;
+  bottom: 58.84%;
+}
+
+#sign-symptomps-div {
+  min-height: 100vh;
+  background: #fadbe2;
+  border-radius: 29px;
+  margin-top: 250px;
+}
+
+#sign-title {
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  margin-top: 100px;
+  /* identical to box height, or 167% */
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583fbc;
+}
+
+#sign-head {
+  font-family: "EudoxusSans-ExtraBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  color: #181945;
+}
+
+#sign-pera {
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17.5px;
+  line-height: 28px;
+  /* or 156% */
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.9;
+}
+
+.symptoms-main {
+  position: relative;
+  height: 100px;
+  width: 100%;
+}
+
+.symptoms-outer {
+  position: relative;
+  height: 80px;
+  width: 80px;
+  left: 53px;
+  top: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+}
+
+.symptoms-inner {
+  position: relative;
+  height: 60px;
+  width: 60px;
+  left: 10px;
+  top: 9px;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.symp-inner-head {
+  position: relative;
+  left: 157px;
+  top: -71px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+
+.symp-inner-pera {
+  width: 261px;
+  position: relative;
+  left: 156px;
+  top: -80px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.5;
+}
+
+#sympimg11 {
+  position: relative;
+  top: 14px;
+  left: 18px;
+}
+
+#sympimg12 {
+  position: relative;
+  top: 12px;
+  left: -13px;
+}
+
+#sympimg13 {
+  position: relative;
+  top: 18px;
+  left: -22px;
+}
+
+#sympimg14 {
+  position: relative;
+  top: 24px;
+  left: -28px;
+}
+
+#sympimg15 {
+  position: relative;
+  top: 12px;
+  left: -12px;
+}
+
+#sympimg16 {
+  position: relative;
+  top: -13px;
+  left: 42px;
+}
+
+#sympimg17 {
+  position: relative;
+  top: -5px;
+  left: 33px;
+}
+
+#sympimg2 {
+  position: relative;
+  top: 14px;
+  left: 15px;
+}
+
+#sympimg3 {
+  position: relative;
+  top: 14px;
+  left: 16px;
+}
+
+#sympimg41 {
+  position: relative;
+  top: 13px;
+  left: 22px;
+}
+
+#sympimg42 {
+  position: relative;
+  top: 22px;
+  left: -6px;
+}
+
+.gallery-common-div {
+  min-height: 70vh;
+  margin-top: 20px;
+}
+#gallery-title {
+  position: relative;
+  left: 26px;
+  top: 68px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583fbc;
+}
+
+#gallery-head {
+  /*  */
+  position: relative;
+  left: 26px;
+  top: 68px;
+  width: 69%;
+  font-family: "EudoxusSans-ExtraBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3vw;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  color: #181945;
+}
+
+#gallery-pera {
+  position: relative;
+  width: 531px;
+  left: 26px;
+  top: 123px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  /* or 156% */
+  color: #181945;
+  opacity: 0.8;
+}
+
+#gallery11 {
+  position: relative;
+  width: 96%;
+  height: 343px;
+  left: 24px;
+  top: 33px;
+  border-radius: 36px;
+}
+
+#gallery12 {
+  position: relative;
+  width: 99%;
+  height: 343px;
+  left: 3px;
+  top: 33px;
+  border-radius: 36px;
+}
+
+#gallery13 {
+  position: relative;
+  width: 100%;
+  height: 343px;
+  left: 0px;
+  top: 33px;
+  border-radius: 36px;
+}
+
+#gallery21 {
+  position: relative;
+  width: 99%;
+  height: 343px;
+  left: 22px;
+  top: 33px;
+  border-radius: 36px;
+}
+
+#gallery22 {
+  position: relative;
+  width: 100%;
+  height: 343px;
+  left: 23px;
+  top: 33px;
+  border-radius: 36px;
+}
+
+#gallery23 {
+  position: relative;
+  width: 96%;
+  height: 343px;
+  left: 24px;
+  top: 33px;
+  border-radius: 36px;
+}
+
+.gallery-img-common {
+  min-height: 407px;
+}
+
+/* Blog Page CSS */
+
+#blogp_head {
+  position: relative;
+  left: 125px;
+  top: 43px;
+  width: 107%;
+  font-family: "EudoxusSans-ExtraBold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4vw;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  color: #181945;
+}
+
+#blogp_pera {
+  position: relative;
+  width: 511px;
+  height: 84px;
+  left: 125px;
+  top: 57px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 28px;
+  display: flex;
+  align-items: flex-end;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.7;
+}
+
+#search {
+  position: relative;
+  width: 450px;
+  height: 60px;
+  left: 125px;
+  top: 113px;
+  font-family: "EudoxusSans";
+  background: #ffffff;
+  border: 1px solid rgba(24, 25, 69, 0.1);
+  border-radius: 16px;
+}
+
+input[name="search"]::placeholder {
+  padding-left: 20px;
+}
+
+#search-btn {
+  position: relative;
+  width: 107px;
+  height: 48px;
+  left: 7px;
+  top: 111px;
+  background: #583fbc;
+  border-radius: 12px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  border: none;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+
+#serachicon {
+  position: relative;
+  left: 7%;
+  right: 0%;
+  top: -6.42%;
+  bottom: 13.52%;
+}
+
+#serachiconline {
+  position: relative;
+  left: 2%;
+  right: 0%;
+  top: 7.58%;
+  bottom: 13.52%;
+}
+
+#blogqua {
+  position: relative;
+  width: 354px;
+  height: 400px;
+  top: -5%;
+  left: 78px;
+  background: #fadbe2;
+  border-radius: 56px;
+}
+
+#blogqua-img {
+  position: relative;
+  width: 62%;
+  height: 56%;
+  z-index: 1;
+  top: -53%;
+  left: 143px;
+  border-radius: 32px;
+}
+
+#blogpattern-index {
+  position: relative;
+  top: -412px;
+  margin-left: 303px;
+}
+
+.common-pattern-index {
+  background: #7abadd;
+  /* margin-left: 18px; */
+}
+
+.common-pattern-service {
+  background: #7abadd;
+  /* margin-left: 18px; */
+}
+
+.common-pattern-blog {
+  background: #583fbc;
+  margin-left: 18px;
+}
+
+.pagination1 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  border-radius: 16px;
+  background: #583fbc;
+  font-family: "EudoxusSans";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination2 {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin-left: 17px;
+  border-radius: 16px;
+  background: #ffffff;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  border: 1px solid rgba(24, 25, 69, 0.1);
+  letter-spacing: -0.02em;
+  color: #181945;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Blog Post CSS */
+
+#bp-title {
+  position: relative;
+  width: 94px;
+  height: 20px;
+  left: 34px;
+  top: 0px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583fbc;
+}
+
+.bp-head {
+  position: relative;
+  width: 66%;
+  /* height: 16%; */
+  font-family: "EudoxusSans-ExtraBold";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+  color: #181945;
+}
+
+#bp-head-1 {
+  left: 34px;
+  top: 0px;
+  font-size: 3vw;
+}
+
+#bp-rect {
+  position: relative;
+  width: 220.12px;
+  height: 57.07px;
+  left: 34px;
+  z-index: 1111;
+  top: 0%;
+  background: #ffffff;
+  border-radius: 15.5659px;
+  font-family: "EudoxusSans-Bold";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 9.08008px;
+  line-height: 14px;
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+#bp-img {
+  position: relative;
+  width: 42.89px;
+  height: 42.89px;
+  left: 0px;
+  top: 7.5px;
+  border-radius: 50%;
+}
+
+#bp-name {
+  position: relative;
+  left: 13.48px;
+  top: 2px;
+  font-size: 18px;
+}
+
+#bp-date {
+  position: relative;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  left: -82.52px;
+  top: 24px;
+  font-size: 11.78293px;
+  line-height: 13px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.9;
+}
+
+#bp-pera {
+  position: relative;
+  width: 79%;
+  height: 7%;
+  left: 34px;
+  top: 26px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.7;
+}
+
+#blog-post-img {
+  position: relative;
+  width: 90%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/pexels-daniel-frank-305568 1.png");
+  top: 68px;
+  border-radius: 30px;
+}
+
+.bp-content {
+  position: relative;
+  width: 79%;
+  /* height: 90%; */
+  left: 0px;
+  top: 0px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.7;
+}
+
+#bp-head-2 {
+  top: 0px;
+  left: 0px;
+  font-size: 35px;
+}
+
+#bp-inner-img-1 {
+  position: relative;
+  width: 98%;
+  height: 100%;
+  left: -12px;
+  top: 0px;
+  border-radius: 30px;
+}
+
+#bp-inner-img-2 {
+  position: relative;
+  width: 107%;
+  height: 100%;
+  left: -12px;
+  top: 0px;
+  border-radius: 30px;
+}
+
+.bp-img-common {
+  height: 335px;
+}
+
+#bp-quote-div {
+  position: relative;
+  height: 42vh;
+  background: linear-gradient(
+    90deg,
+    rgba(219, 239, 250, 0.5) 0%,
+    rgba(219, 239, 250, 0) 100%
+  );
+  border-left: 4px solid #583fbc;
+}
+
+#bp-quote {
+  position: relative;
+  width: 75%;
+  height: 96px;
+  left: 0px;
+  top: 1px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+
+.bp-pera-1 {
+  position: relative;
+  width: 76%;
+  height: 42vh;
+  /* left: 0px;
+  top: 0px; */
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  /* or 200% */
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.7;
+}
+
+#bp-news-head {
+  position: relative;
+  width: 457px;
+  height: 23px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+  letter-spacing: -0.04em;
+}
+
+/* Contact Us Page CSS */
+#contact-us-div {
+  position: relative;
+  height: 560px;
+  background: #dbeffa;
+  border-radius: 32px;
+}
+
+#contact-us-pera {
+  position: relative;
+  width: 52%;
+  height: 84px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  color: rgb(24, 25, 69);
+  opacity: 0.7;
+}
+
+#contact-form-div {
+  position: relative;
+  height: 100;
+  top: 38px;
+  background: #ffffff;
+  border-radius: 48px;
+  box-shadow: 0 3px 7px -6px black;
+}
+
+#contact-message {
+  position: relative;
+  width: 100%;
+  padding: 20px;
+  top: 10px;
+  height: 52%;
+  background: #ffffff;
+  border: 1px solid rgba(24, 25, 69, 0.1);
+  border-radius: 16px;
+}
+
+.contact-ceme-outer {
+  position: relative;
+  width: 64px;
+  height: 64px;
+  left: 7%;
+  background: rgba(88, 63, 188, 0.2);
+  border-radius: 16px;
+  top: 17%;
+}
+
+#contact-ceme-head {
+  position: relative;
+  width: 167px;
+  height: 20px;
+  left: 31%;
+  top: -50%;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583fbc;
+}
+
+#contact-ceme-pera {
+  position: relative;
+  width: 112px;
+  height: 22px;
+  left: 31%;
+  top: -55%;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height, or 138% */
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+#contact-appointment-btn {
+  position: relative;
+  width: 90%;
+  height: 72%;
+  font-size: 84%;
+  top: 15%;
+  left: 10%;
+  border: none;
+  background: #583fbc;
+  border-radius: 16px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#cont-submit-btn-row {
+  position: relative;
+  top: -103px;
+}
+
+#clinic-div {
+  min-height: 100vh;
+  background: #ffffff;
+  border-radius: 29px;
+}
+
+.client-inner-div {
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+  background: #ffffff;
+  border: 1px solid rgba(24, 25, 69, 0.1);
+  border-radius: 32px;
+}
+
+.client-inner-img1 {
+  position: relative;
+  width: 55%;
+  left: 10px;
+  top: 7px;
+  border-radius: 32px 0px 0px 32px;
+}
+
+.client-inner-img2 {
+  position: relative;
+  width: 38%;
+  left: 16px;
+  top: 8px;
+  border-radius: 0px 32px 32px 0px;
+}
+
+.client-inner-img3 {
+  position: relative;
+  width: 6%;
+  height: 26%;
+  left: 336px;
+  top: -126px;
+}
+.client-title {
+  position: relative;
+  width: 169px;
+  height: 28px;
+  left: 31%;
+  top: 0px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  /* identical to box height, or 156% */
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+
+.client-pera{
+  position: relative;
+  width: 273px;
+  height: 26px;
+  left: 19%;
+  top: -11px;
+  font-family: 'EudoxusSans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* identical to box height, or 162% */
+  letter-spacing: -0.02em;
+  color: #181945;
+  opacity: 0.7;
 }
