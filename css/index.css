@@ -61,9 +61,17 @@ nav {
 }
 
 #appointment-btn-two {
-  position: relative;
-  top: 31%;
-  left: 10%;
+  width: 180px;
+  height: 55px;
+  border: none;
+  margin: 60px;
+  background: #583fbc;
+  border-radius: 16px;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.08008px;
+  color: #ffffff;
 }
 
 #girl_div {
@@ -73,8 +81,8 @@ nav {
 }
 .vector-img {
   position: absolute;
-  width: 96.5%;
-  left: 25.81px;
+  width: 98%;
+  margin: auto;
 }
 #vector-one {
   height: 273.72px;
@@ -90,30 +98,24 @@ nav {
 }
 
 #girl-head {
-  position: relative;
-  top: 18%;
-  margin-left: 10%;
-  font-family: "EudoxusSans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 4vw;
+  font-family: "EudoxusSans-ExtraBold";
   line-height: 81px;
-  display: flex;
-  align-items: flex-end;
-  letter-spacing: -0.04em;
   color: #181945;
+  margin-left: 78px;
+  margin-top: 124px;
+  padding: 0;
+  font-size: 55px;
+  font-weight: 700;
 }
 
 #girls-div-pera {
-  position: relative;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 500;
-  top: 24%;
-  margin-left: 10%;
+  margin-top: 2%;
+  margin-left: 11%;
   font-size: 17.6744px;
   line-height: 29px;
-  /* or 156% */
   align-items: flex-end;
   letter-spacing: -0.02em;
   color: #181945;
@@ -121,63 +123,47 @@ nav {
 }
 
 #call-outer {
-  position: relative;
   width: 64px;
   height: 64px;
-  left: 40%;
-  top: 21%;
+  margin-top: 58px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
 }
 
 #call-div {
-  position: relative;
   width: 40.13px;
   height: 40.13px;
-  left: 20%;
-  top: 20%;
+  margin-top: 6px;
   background: #ffffff;
   border-radius: 10.3772px;
+  margin-left: 12px;
 }
 
 #call-icon {
-  position: relative;
-  left: 22%;
   font-size: 30px;
-  right: 11.24%;
   font-weight: bold;
-  top: 20%;
+  margin-top: 6px;
   bottom: 8.33%;
   color: #583fbc;
 }
 
 #eme-head {
-  position: relative;
   width: 300px;
   height: 13px;
-  left: 57%;
-  top: 12%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 900;
   font-size: 13.78293px;
   line-height: 13px;
-  /* identical to box height, or 167% */
-
   letter-spacing: 0.08em;
   text-transform: uppercase;
-
   color: #583fbc;
 }
 
 #number-pera {
-  position: relative;
   width: 250px;
   height: 15px;
-  left: 57%;
-  top: 13%;
-
-  font-family: "Eudoxus Sans";
+  font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
   font-size: 18.3772px;
@@ -223,7 +209,7 @@ nav {
   width: 10.38px;
   border-radius: 50%;
   height: 10.38px;
-  left: 76%;
+  margin-left: 76%;
   top: 21%;
   background: #7b55ec;
 }
@@ -233,7 +219,7 @@ nav {
   width: 16.86px;
   height: 16.86px;
   border-radius: 50%;
-  left: 87%;
+  margin-left: 87%;
   top: 47%;
   background: #7abadd;
 }
@@ -243,7 +229,7 @@ nav {
   width: 7.78px;
   height: 7.78px;
   border-radius: 50%;
-  left: 17%;
+  margin-left: 17%;
   top: 69%;
   background: #583fbc;
 }
@@ -252,7 +238,7 @@ nav {
   position: relative;
   width: 220.12px;
   height: 57.07px;
-  left: 15%;
+  margin-left: 15%;
   z-index: 1111;
   top: -20%;
   background: #ffffff;
@@ -312,7 +298,7 @@ nav {
   position: relative;
   width: 62.26px;
   height: 62.26px;
-  left: 81%;
+  margin-left: 81%;
   top: 68%;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10.3772px;
@@ -342,10 +328,10 @@ nav {
 }
 
 #pattern-index {
-    position: relative;
-    top: -71px;
-    width: 22%;
-    left: 61px;
+  position: relative;
+  top: -71px;
+  width: 22%;
+  left: 61px;
 }
 
 .eclipse11 {
@@ -422,30 +408,23 @@ nav {
   top: -337.78px;
 }
 
-#quote-div {
-  height: 550px;
-}
+
 #quote {
-  position: relative;
-  left: 2.2%;
-  top: 24%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 500;
   font-size: 41px;
   line-height: 72px;
   /* or 200% */
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: -0.03em;
   color: #181945;
 }
 
 #rect5 {
-  position: relative;
   width: 120px;
   height: 4px;
-  left: 46%;
-  top: 27%;
+  margin: auto;
   background: #583fbc;
   border-radius: 2px;
 }
@@ -454,8 +433,7 @@ nav {
   position: relative;
   width: 66px;
   height: 20px;
-  left: 8%;
-  top: -56%;
+  margin-left: 8%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
@@ -473,8 +451,7 @@ nav {
   position: relative;
   width: 425px;
   height: 120px;
-  left: 8%;
-  top: -46%;
+  margin-left: 8%;
   font-family: "EudoxusSans-Bold";
   font-style: normal;
   font-weight: 700;
@@ -494,8 +471,7 @@ nav {
 }
 #service-pera {
   position: relative;
-  left: 10%;
-  top: -33%;
+  /* margin-left: 10%; */
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 500;
@@ -942,7 +918,7 @@ nav {
   position: relative;
   width: 24px;
   height: 24px;
-  left: 179px;
+  margin-left: 179px;
   top: -2px;
   border-radius: 50%;
   background: #583fbc;
@@ -952,7 +928,7 @@ nav {
   position: relative;
   width: 139px;
   height: 24px;
-  left: 29px;
+  margin-left: 29px;
   top: 21px;
 }
 
@@ -963,16 +939,16 @@ nav {
   left: 2px;
   top: -2px;
 }
-.patient_common {
+/* .patient_common {
   height: 720px;
-}
+} */
 
 #qua {
-  position: relative;
-  width: 59%;
-  height: 71%;
-  top: 22%;
-  left: 80px;
+  position: absolute;
+  width: 26%;
+  height: 500px;
+  /* top: 22%; */
+  margin-left: 80px;
   background: #dbeffa;
   border-radius: 32px;
 }
@@ -980,12 +956,12 @@ nav {
 #patint_img {
   position: relative;
   width: 68%;
-  height: 53%;
-  top: -40%;
+  height: 572px;
+  top: 60px;
   background-repeat: no-repeat;
-  background-size: cover;
-  left: 150px;
-  background-image: url("../images/patient-receiving-dental-treatment\ 1.png");
+  background-size: 100;
+  margin-left: 150px;
+  background-image: url(../images/patient-receiving-dental-treatment\ 1.png);
   border-radius: 32px;
 }
 
@@ -993,8 +969,7 @@ nav {
   position: relative;
   width: 168px;
   height: 20px;
-  left: 13px;
-  top: 230px;
+  margin-left: 13px;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 800;
@@ -1008,8 +983,7 @@ nav {
 
 #eme_head {
   position: relative;
-  left: 13px;
-  top: 253px;
+  margin-left: 13px;
   width: 643px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -1024,8 +998,7 @@ nav {
   position: relative;
   width: 509px;
   height: 84px;
-  left: 13px;
-  top: 260px;
+  margin-left: 13px;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 500;
@@ -1057,10 +1030,9 @@ nav {
   color: #ffffff;
 }
 
-#features_div {
+#main_feature_div {
   background: #dbdefa;
   border-radius: 48px;
-  margin-top: 100px;
 }
 
 /* #main_feature_div {
@@ -1137,7 +1109,7 @@ nav {
 .fin-head {
   position: relative;
   height: 28px;
-  left: 119px;
+  margin-left: 119px;
   top: -62px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -1152,7 +1124,7 @@ nav {
 .fin-pera {
   position: relative;
   height: 52px;
-  left: 119px;
+  margin-left: 119px;
   top: -68px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -1254,16 +1226,14 @@ nav {
   bottom: 0%;
 }
 
-.qua_common {
-  height: 720px;
-}
+
 
 #qua_span {
   position: relative;
   width: 168px;
+  top: 161px;
   height: 20px;
-  left: 75px;
-  top: 210px;
+  margin-left: 75px;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 800;
@@ -1277,9 +1247,9 @@ nav {
 
 #qua_head {
   position: relative;
-  left: 75px;
-  top: 233px;
-  width: 107%;
+  margin-left: 75px;
+  width: 98%;
+  top: 180px;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
@@ -1294,8 +1264,8 @@ nav {
   position: relative;
   width: 564px;
   height: 84px;
-  left: 75px;
-  top: 219px;
+  top: 161px;
+  margin-left: 75px;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 500;
@@ -1313,23 +1283,27 @@ nav {
 
 #qua2 {
   position: relative;
-  width: 59%;
-  height: 71%;
+  width: 52%;
+  height: 500px;
   top: 22%;
-  left: 239px;
+  margin-left: 239px;
   background: #fadbe2;
   border-radius: 32px;
 }
 
+.qua_common{
+  margin-bottom: 140px;
+}
+
 #expert_img {
-  position: relative;
-  width: 68%;
-  height: 53%;
-  top: -40%;
+  position: absolute;
+  width: 479px;
+  margin-top: -313px;
+  height: 350px;
   background-repeat: no-repeat;
-  background-size: cover;
-  left: 108px;
-  background-image: url("../images/young-asian-female-dentist-white-coat-posing-clinic-equipment\ 1.png");
+  background-size: 100;
+  margin-left: 80px;
+  background-image: url(../images/young-asian-female-dentist-white-coat-posing-clinic-equipment\ 1.png);
   border-radius: 32px;
 }
 
@@ -1337,8 +1311,9 @@ nav {
   position: relative;
   width: 20px;
   height: 20px;
-  left: 75px;
-  top: 246px;
+  top: 161px;
+  margin-left: 75px;
+  margin-top: 10px;
   border-radius: 50%;
   background: #583fbc;
 }
@@ -1347,14 +1322,15 @@ nav {
   position: relative;
   width: 11px;
   height: 8px;
-  left: 4px;
+  margin-left: 4px;
   top: -4px;
 }
 
 .check-head {
   position: relative;
-  left: 108px;
-  top: 222px;
+  margin-left: 20px;
+  top: 161px;
+  margin-top: 10px;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 600;
@@ -1367,9 +1343,9 @@ nav {
   opacity: 0.9;
 }
 
-.test-common {
+/* .test-common {
   height: 300px;
-}
+} */
 
 #test {
   position: relative;
@@ -1629,7 +1605,7 @@ nav {
 }
 
 .contact-common-div {
-  height: 1300px;
+  height: 1082px;
 }
 
 #map-div {
@@ -1654,7 +1630,7 @@ nav {
   position: relative;
   width: 72%;
   height: 10%;
-  left: 14%;
+  margin-left: 14%;
   top: -4%;
   background: #ffffff;
   border-radius: 32px;
@@ -1664,7 +1640,7 @@ nav {
   position: relative;
   width: 64px;
   height: 64px;
-  left: 6%;
+  margin-left: 6%;
   top: 19%;
   background: rgba(88, 63, 188, 0.2);
   border-radius: 16px;
@@ -1692,7 +1668,7 @@ nav {
   position: relative;
   width: 38%;
   height: 56px;
-  left: 31%;
+  margin-left: 31%;
   top: -41%;
   font-family: "EudoxusSans-ExtraBold";
   font-style: normal;
@@ -1762,9 +1738,9 @@ label {
 
 .input-class {
   position: relative;
-  top: 10px;
+  top: 2px;
   width: 100%;
-  height: 60px;
+  height: 48px;
   border: 1px solid rgba(24, 25, 69, 0.1);
   border-radius: 16px;
 }
@@ -1774,7 +1750,7 @@ label {
   width: 100%;
   padding: 20px;
   top: 10px;
-  height: 77%;
+  height: 171px;
   background: #ffffff;
   border: 1px solid rgba(24, 25, 69, 0.1);
   border-radius: 16px;
@@ -1795,7 +1771,7 @@ label {
   width: 64px;
   height: 64px;
   left: 7%;
-  top: 0%;
+  top: 24%;
   background: rgba(88, 63, 188, 0.2);
   border-radius: 16px;
 }
@@ -1815,7 +1791,7 @@ label {
   width: 168px;
   height: 20px;
   left: 31%;
-  top: -29%;
+  top: -32%;
 
   font-family: "EudoxusSans";
   font-style: normal;
@@ -1835,7 +1811,7 @@ label {
   width: 112px;
   height: 22px;
   left: 31%;
-  top: -32%;
+  top: -40%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
@@ -1860,10 +1836,10 @@ label {
 #appointment-btn-four {
   position: relative;
   width: 90%;
-  height: 31%;
+  height: 58px;
   font-size: 84%;
-  top: 0%;
-  left: 10%;
+  top: 26%;
+  left: 1%;
   border: none;
   background: #583fbc;
   border-radius: 16px;
@@ -1881,7 +1857,7 @@ label {
   font-size: 15px;
   font-family: "EudoxusSans";
   opacity: 0.8;
-  height: 60px;
+  height: 48px;
   border: 1px solid rgba(24, 25, 69, 0.1);
   border-radius: 16px;
 }
@@ -1897,7 +1873,7 @@ label {
   font-size: 24px;
   line-height: 28px;
   top: 79px;
-  left: 55px;
+  margin-left: 55px;
   color: #ffffff;
   /* identical to box height, or 117% */
   position: relative;
@@ -1930,7 +1906,7 @@ label {
   position: relative;
   width: 80%;
   height: 56px;
-  left: 9%;
+  margin-left: 9%;
   top: 17%;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -1947,7 +1923,7 @@ label {
   position: relative;
   width: 104px;
   height: 20px;
-  left: 9%;
+  margin-left: 9%;
   top: 27%;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -1963,7 +1939,7 @@ label {
   position: relative;
   width: 40.13px;
   height: 40.13px;
-  left: 8.5%;
+  margin-left: 8.5%;
   top: 26%;
 }
 #fb-icon {
@@ -2000,7 +1976,7 @@ label {
   position: relative;
   width: 228px;
   height: 26px;
-  left: 8.5%;
+  margin-left: 8.5%;
   top: 54%;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -2197,7 +2173,7 @@ label {
   position: relative;
   width: 268px;
   height: 81px;
-  left: 80px;
+  margin-left: 80px;
   top: 135px;
   font-family: "EudoxusSans-ExtraBold";
   font-style: normal;
@@ -2215,7 +2191,7 @@ label {
   position: relative;
   width: 73%;
   height: 84px;
-  left: 75px;
+  margin-left: 75px;
   top: 169px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -2258,7 +2234,7 @@ label {
   position: relative;
   width: 72%;
   height: 59%;
-  left: 21%;
+  margin-left: 21%;
   border-radius: 38px;
   top: -32%;
 }
@@ -2268,7 +2244,7 @@ label {
   width: 54%;
   height: 47%;
   top: 3%;
-  left: 80px;
+  margin-left: 80px;
   background: #dbeffa;
   border-radius: 32px;
 }
@@ -2330,8 +2306,7 @@ label {
 
 #cli-appointment-btn {
   position: relative;
-  top: 45%;
-  left: 2%;
+  margin-left: 2%;
   font-size: 14px;
   height: 60px;
   width: 225px;
@@ -2374,7 +2349,7 @@ label {
 #safety-video-div {
   position: relative;
   height: 507.27px;
-  top: -307px;
+  top: -309px;
   border-radius: 34px;
 }
 
@@ -2420,7 +2395,7 @@ iframe {
 
 #safety-pera {
   position: relative;
-  width: 65%;
+  width: 61%;
   height: 84px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -2469,9 +2444,9 @@ iframe {
 
 #meat-pera {
   position: relative;
-  width: 509px;
+  width: 72%;
   height: 84px;
-  left: 27px;
+  margin-left: 27px;
   top: 51px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -2524,7 +2499,7 @@ iframe {
   position: relative;
   width: 95%;
   height: 120px;
-  left: 27px;
+  margin-left: 27px;
   top: 13px;
   font-family: "EudoxusSans-ExtraBold";
   font-style: normal;
@@ -2587,7 +2562,7 @@ iframe {
 
 #ser-head {
   position: relative;
-  left: 21%;
+  margin-left: 21%;
   top: 24%;
   font-family: "EudoxusSans-ExtraBold";
   font-style: normal;
@@ -2600,9 +2575,9 @@ iframe {
 
 #ser-pera {
   position: relative;
-  width: 506px;
+  width: 73%;
   height: 84px;
-  left: 21.5%;
+  margin-left: 21.5%;
   top: 30%;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -2638,7 +2613,7 @@ iframe {
   width: 17.86px;
   height: 17.86px;
   border-radius: 50%;
-  left: 94%;
+  margin-left: 86%;
   top: 40%;
   background: #7abadd;
 }
@@ -2648,7 +2623,7 @@ iframe {
   width: 12.78px;
   height: 12.78px;
   border-radius: 50%;
-  left: 13%;
+  margin-left: 6%;
   top: 30%;
   background: #583fbc;
 }
@@ -2657,7 +2632,7 @@ iframe {
   width: 17.86px;
   height: 17.86px;
   border-radius: 50%;
-  left: 8%;
+  margin-left: 0%;
   top: 64%;
   background: #7abadd;
 }
@@ -2666,7 +2641,7 @@ iframe {
   position: relative;
   width: 96px;
   height: 96px;
-  left: 85.5%;
+  margin-left: 70.5%;
   top: -41%;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 10.3772px;
@@ -2677,7 +2652,7 @@ iframe {
   position: relative;
   width: 72px;
   height: 72px;
-  left: 11px;
+  margin-left: 11px;
   top: 12.06px;
   background: #ffffff;
   border-radius: 10.3772px;
@@ -2699,7 +2674,7 @@ iframe {
   position: relative;
   width: 70%;
   height: 101%;
-  left: 4%;
+  left: -3%;
   z-index: 1;
   top: 28px;
   border-radius: 26px;
@@ -2708,7 +2683,7 @@ iframe {
 #serpattern-index {
   position: relative;
   top: 194px;
-  left: 0px;
+  left: -58px;
 }
 
 #serimgser41 {
@@ -2779,7 +2754,7 @@ iframe {
   position: relative;
   height: 80px;
   width: 80px;
-  left: 53px;
+  margin-left: 53px;
   top: 10px;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
@@ -2797,7 +2772,7 @@ iframe {
 
 .symp-inner-head {
   position: relative;
-  left: 157px;
+  margin-left: 157px;
   top: -71px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -2811,7 +2786,7 @@ iframe {
 .symp-inner-pera {
   width: 261px;
   position: relative;
-  left: 156px;
+  margin-left: 156px;
   top: -80px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -2895,7 +2870,7 @@ iframe {
 }
 #gallery-title {
   position: relative;
-  left: 26px;
+  left: 20px;
   top: 68px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -2911,7 +2886,7 @@ iframe {
 #gallery-head {
   /*  */
   position: relative;
-  left: 26px;
+  left: 20px;
   top: 68px;
   width: 69%;
   font-family: "EudoxusSans-ExtraBold";
@@ -2925,7 +2900,7 @@ iframe {
 
 #gallery-pera {
   position: relative;
-  width: 531px;
+  width: 90%;
   left: 26px;
   top: 123px;
   font-family: "EudoxusSans";
@@ -3065,6 +3040,39 @@ input[name="search"]::placeholder {
   letter-spacing: -0.02em;
   color: #ffffff;
 }
+
+#serceme-head{
+  position: relative;
+  width: 168px;
+  height: 20px;
+  margin-left: 27%;
+  top: -44%;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #583fbc;
+}
+
+#sereme_pera{
+  position: relative;
+  width: 112px;
+  height: 22px;
+  margin-left: 27%;
+  top: -54%;
+  font-family: "EudoxusSans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  color: #181945;
+}
+
+
 
 #serachicon {
   position: relative;
@@ -3384,7 +3392,7 @@ input[name="search"]::placeholder {
 
 #contact-us-pera {
   position: relative;
-  width: 52%;
+  width: 100%;
   height: 84px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -3421,7 +3429,7 @@ input[name="search"]::placeholder {
   position: relative;
   width: 64px;
   height: 64px;
-  left: 7%;
+  margin-left: 7%;
   background: rgba(88, 63, 188, 0.2);
   border-radius: 16px;
   top: 17%;
@@ -3533,13 +3541,13 @@ input[name="search"]::placeholder {
   color: #181945;
 }
 
-.client-pera{
+.client-pera {
   position: relative;
   width: 273px;
   height: 26px;
   left: 19%;
   top: -11px;
-  font-family: 'EudoxusSans';
+  font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
