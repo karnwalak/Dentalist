@@ -92,11 +92,11 @@ nav {
 #girl-head {
   position: relative;
   top: 18%;
-  left: 10%;
+  margin-left: 10%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
-  font-size: 55px;
+  font-size: 4vw;
   line-height: 81px;
   display: flex;
   align-items: flex-end;
@@ -110,7 +110,7 @@ nav {
   font-style: normal;
   font-weight: 500;
   top: 24%;
-  left: 10%;
+  margin-left: 10%;
   font-size: 17.6744px;
   line-height: 29px;
   /* or 156% */
