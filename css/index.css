@@ -133,16 +133,17 @@ nav {
 #call-div {
   width: 40.13px;
   height: 40.13px;
-  margin-top: 6px;
+  margin-top: 13px;
   background: #ffffff;
   border-radius: 10.3772px;
-  margin-left: 12px;
+  /* margin-left: 12px; */
 }
 
 #call-icon {
   font-size: 30px;
   font-weight: bold;
   margin-top: 6px;
+  margin-left: 9px;
   bottom: 8.33%;
   color: #583fbc;
 }
@@ -190,7 +191,7 @@ nav {
   position: relative;
   width: 72px;
   height: 72px;
-  left: 72.82px;
+  margin-left: 72.82px;
   top: -574.18px;
   background: #583fbc;
   border-radius: 16px;
@@ -331,7 +332,7 @@ nav {
   position: relative;
   top: -71px;
   width: 22%;
-  left: 61px;
+  margin-left: 61px;
 }
 
 .eclipse11 {
@@ -408,7 +409,6 @@ nav {
   top: -337.78px;
 }
 
-
 #quote {
   font-family: "EudoxusSans";
   font-style: normal;
@@ -471,15 +471,15 @@ nav {
 }
 #service-pera {
   position: relative;
-  /* margin-left: 10%; */
+  margin-left: 10%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 500;
+  width: 73%;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: -0.02em;
   opacity: 0.6;
-  /* or 156% */
 }
 
 #service1 {
@@ -984,7 +984,7 @@ nav {
 #eme_head {
   position: relative;
   margin-left: 13px;
-  width: 643px;
+  width: 86%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
@@ -996,7 +996,7 @@ nav {
 }
 #eme_pera {
   position: relative;
-  width: 509px;
+  width: 86%;
   height: 84px;
   margin-left: 13px;
   font-family: "EudoxusSans";
@@ -1226,8 +1226,6 @@ nav {
   bottom: 0%;
 }
 
-
-
 #qua_span {
   position: relative;
   width: 168px;
@@ -1248,7 +1246,7 @@ nav {
 #qua_head {
   position: relative;
   margin-left: 75px;
-  width: 98%;
+  width: 66%;
   top: 180px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -1262,7 +1260,7 @@ nav {
 
 #qua_pera {
   position: relative;
-  width: 564px;
+  width: 82%;
   height: 84px;
   top: 161px;
   margin-left: 75px;
@@ -1291,13 +1289,13 @@ nav {
   border-radius: 32px;
 }
 
-.qua_common{
+.qua_common {
   margin-bottom: 140px;
 }
 
 #expert_img {
-  position: absolute;
-  width: 479px;
+  position: relative;
+  width: 82%;
   margin-top: -313px;
   height: 350px;
   background-repeat: no-repeat;
@@ -1351,7 +1349,7 @@ nav {
   position: relative;
   width: 12%;
   height: 20px;
-  left: 12%;
+  margin-left: 12%;
   top: 30%;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -1374,12 +1372,12 @@ nav {
   position: relative;
   width: 78%;
   height: 120px;
-  left: 12%;
+  margin-left: 12%;
   top: 30%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
-  font-size: 48px;
+  font-size: 2vw;
   line-height: 60px;
   letter-spacing: -0.04em;
   color: #181945;
@@ -1387,9 +1385,9 @@ nav {
 
 #test-pera {
   position: relative;
-  width: 73%;
+  width: 65%;
   height: 84px;
-  left: 12%;
+  margin-left: 12%;
   top: 46%;
   text-align: justify;
   font-family: "EudoxusSans";
@@ -1410,7 +1408,7 @@ nav {
   position: relative;
   width: 85%;
   height: 69%;
-  left: 8%;
+  margin-left: 8%;
   top: 0%;
   background: #ffffff;
   border-radius: 32px;
@@ -1421,7 +1419,7 @@ nav {
   width: 90px;
   height: 90px;
   background-repeat: no-repeat;
-  left: 40%;
+  margin-left: 40%;
   border-radius: 50%;
   top: 12%;
   border: 6px solid #d9ebfa;
@@ -1432,7 +1430,7 @@ nav {
   position: relative;
   height: 28px;
   top: 68px;
-  left: 39%;
+  margin-left: 39%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 700;
@@ -1449,7 +1447,7 @@ nav {
   width: 84%;
   height: 78px;
   top: 68px;
-  left: 9%;
+  margin-left: 9%;
   font-family: "EudoxusSans";
   font-style: normal;
   font-weight: 600;
@@ -1509,7 +1507,7 @@ nav {
   position: relative;
   width: 87%;
   height: 251px;
-  left: 6%;
+  margin-left: 6%;
   top: 4%;
   border-radius: 30px;
 }
@@ -1518,7 +1516,7 @@ nav {
   position: relative;
   width: 60px;
   height: 60px;
-  left: 42px;
+  margin-left: 42px;
   top: -218px;
   background: #ffffff;
   border-radius: 16px;
@@ -1760,7 +1758,7 @@ label {
   position: relative;
   width: 48px;
   height: 48px;
-  left: 12%;
+  margin-left: 12%;
   top: 14%;
   background: #583fbc;
   border-radius: 16px;
@@ -1770,7 +1768,7 @@ label {
   position: relative;
   width: 64px;
   height: 64px;
-  left: 7%;
+  margin-left: 7%;
   top: 24%;
   background: rgba(88, 63, 188, 0.2);
   border-radius: 16px;
@@ -1778,7 +1776,7 @@ label {
 
 #ceme_img {
   position: relative;
-  left: 8.33%;
+  margin-left: 8.33%;
   right: 11.24%;
   top: 11.55%;
   bottom: 8.33%;
@@ -1790,7 +1788,7 @@ label {
   position: relative;
   width: 168px;
   height: 20px;
-  left: 31%;
+  margin-left: 31%;
   top: -32%;
 
   font-family: "EudoxusSans";
@@ -1810,7 +1808,7 @@ label {
   position: relative;
   width: 112px;
   height: 22px;
-  left: 31%;
+  margin-left: 31%;
   top: -40%;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -2975,9 +2973,9 @@ iframe {
 
 #blogp_head {
   position: relative;
-  left: 125px;
+  margin-left: 125px;
   top: 43px;
-  width: 107%;
+  width: 73%;
   font-family: "EudoxusSans-ExtraBold";
   font-style: normal;
   font-weight: 700;
@@ -2989,9 +2987,9 @@ iframe {
 
 #blogp_pera {
   position: relative;
-  width: 511px;
+  width: 71%;
   height: 84px;
-  left: 125px;
+  margin-left: 125px;
   top: 57px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -3007,7 +3005,7 @@ iframe {
 
 #search {
   position: relative;
-  width: 450px;
+  width: 80%;
   height: 60px;
   left: 125px;
   top: 113px;
@@ -3025,8 +3023,8 @@ input[name="search"]::placeholder {
   position: relative;
   width: 107px;
   height: 48px;
-  left: 7px;
-  top: 111px;
+  /* left: 34%; */
+  top: 13.7%;
   background: #583fbc;
   border-radius: 12px;
   font-family: "EudoxusSans";
@@ -3041,7 +3039,7 @@ input[name="search"]::placeholder {
   color: #ffffff;
 }
 
-#serceme-head{
+#serceme-head {
   position: relative;
   width: 168px;
   height: 20px;
@@ -3057,7 +3055,7 @@ input[name="search"]::placeholder {
   color: #583fbc;
 }
 
-#sereme_pera{
+#sereme_pera {
   position: relative;
   width: 112px;
   height: 22px;
@@ -3071,8 +3069,58 @@ input[name="search"]::placeholder {
   letter-spacing: -0.02em;
   color: #181945;
 }
+@media (min-width: 500px) and (max-width: 768px) {
+  #search {
+    position: relative;
+    width: 80%;
+    height: 60px;
+    left: 123px;
+    top: 113px;
+    font-family: "EudoxusSans";
+    background: #ffffff;
+    border: 1px solid rgba(24, 25, 69, 0.1);
+    border-radius: 16px;
+}
+  
+  #search-btn {
+    position: relative;
+    width: 107px;
+    height: 48px;
+    margin-left: 81%;
+    top: 13.7%;
+    background: #583fbc;
+    border-radius: 12px;
+    font-family: "EudoxusSans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #ffffff;
+  }
+  #blogpattern-index {
+    position: relative;
+    top: -229px !important;
+    margin-left: 303px;
+  }
+  .qua_common {
+    margin-bottom: 140px;
+    height: 100vh;
+  }
 
-
+  #blogqua-img {
+    position: relative;
+    width: 62%;
+    height: 49%;
+    z-index: 1;
+    top: -75% !important;
+    left: 183px;
+    border-radius: 32px;
+}
+}
 
 #serachicon {
   position: relative;
@@ -3095,7 +3143,7 @@ input[name="search"]::placeholder {
   width: 354px;
   height: 400px;
   top: -5%;
-  left: 78px;
+  margin-left: 78px;
   background: #fadbe2;
   border-radius: 56px;
 }
@@ -3103,10 +3151,10 @@ input[name="search"]::placeholder {
 #blogqua-img {
   position: relative;
   width: 62%;
-  height: 56%;
+  height: 49%;
   z-index: 1;
-  top: -53%;
-  left: 143px;
+  top: -47%;
+  left: 133px;
   border-radius: 32px;
 }
 
@@ -3175,7 +3223,7 @@ input[name="search"]::placeholder {
   position: relative;
   width: 94px;
   height: 20px;
-  left: 34px;
+  margin-left: 34px;
   top: 0px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -3201,7 +3249,7 @@ input[name="search"]::placeholder {
 }
 
 #bp-head-1 {
-  left: 34px;
+  margin-left: 34px;
   top: 0px;
   font-size: 3vw;
 }
@@ -3210,7 +3258,7 @@ input[name="search"]::placeholder {
   position: relative;
   width: 220.12px;
   height: 57.07px;
-  left: 34px;
+  margin-left: 34px;
   z-index: 1111;
   top: 0%;
   background: #ffffff;
@@ -3257,7 +3305,7 @@ input[name="search"]::placeholder {
   position: relative;
   width: 79%;
   height: 7%;
-  left: 34px;
+  margin-left: 34px;
   top: 26px;
   font-family: "EudoxusSans";
   font-style: normal;
@@ -3314,10 +3362,10 @@ input[name="search"]::placeholder {
 
 #bp-inner-img-2 {
   position: relative;
-  width: 107%;
+  width: 102%;
   height: 100%;
   left: -12px;
-  top: 0px;
+  top: 11px;
   border-radius: 30px;
 }
 
